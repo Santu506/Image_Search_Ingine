@@ -21,7 +21,7 @@ form{
     height:50px;
     display: flex;
     align-items:center;
-    margin: auto;
+    margin:0 auto;
     background-color: #434989;
     border-radius: 10px ;
     margin-top:1rem ;
@@ -33,10 +33,10 @@ form #search-box{
     border-radius: 10px 0 0 10px;
     outline:0;
     border: 0;
-    font-size: 1.2rem;
-    padding:0 1rem;
+    font-size: 1rem;
     background: transparent;
     color: #fff;
+    padding-left: 10px;  
 }
 form #btn-box{
     height:100%;
@@ -83,7 +83,17 @@ input::placeholder{
     }
     form{
         max-width: 300px;
+        height: 40px;
     }
+    form #search-box{
+        width:50px;
+    }
+
+    form #btn-box{
+        font-size: 20px;
+        width: 70px;
+    }
+
 }
 @media((min-width:513px) and (max-width:700px)){
     #search-result{
